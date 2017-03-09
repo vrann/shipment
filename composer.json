@@ -1,0 +1,20 @@
+{
+    "name": "vrann/shipment",
+    "description": "Shipment Backend bootstrap appliction",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eugene Tulika",
+            "email": "vranen@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3",
+        "lusitanian/oauth": "~0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeBorzoi\\": "lib/LeBorzoi/"
+        }
+    }
+}
